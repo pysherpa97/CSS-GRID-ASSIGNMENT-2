@@ -1,0 +1,100 @@
+@import (
+  "https:
+  //fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap"
+);
+
+* {
+  font-family: Karla, Sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  margin: 40px;
+  box-shadow: 0px 4px 10px 1px #00000033;
+  min-width: 400px;
+  max-width: 600px;
+  border-radius: 2rem;
+}
+
+.top {
+  grid-row: 500px;
+  background-color: white;
+  height: 250px;
+  padding: 25px;
+}
+
+.top > h2 {
+  color: hsl(179, 62%, 43%);
+  padding: 15px;
+}
+
+.top > h3 {
+  color: hsl(71, 73%, 54%);
+  padding: 15px;
+}
+
+.top > p {
+  color: hsl(218, 22%, 67%);
+  padding: 15px;
+  line-height: 1.5rem;
+}
+
+.bottom {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  background-color: hsl(179, 62%, 43%);
+  border-radius: 0rem 0rem 1rem 1rem;
+}
+
+.bottomleft {
+  padding: 20px;
+  color: white;
+}
+
+.bottomleft > button {
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  margin: 15px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 0.5rem;
+  border: none;
+  box-shadow: 0px 4px 10px 1px #00000033;
+}
+
+.bottomleft > h3 {
+  padding: 15px;
+  padding-top: 35px;
+}
+
+span {
+  color: white;
+  font-size: 35px;
+}
+
+.bottomleft > p {
+  padding: 15px;
+}
+
+.bottomright {
+  color: white;
+  background-color: #4abebd;
+  padding: 20px;
+  border-radius: 0rem 0rem 1rem 0rem;
+}
+
+.bottomright > h3 {
+  padding: 15px;
+  padding-top: 35px;
+}
+
+.bottomright > p {
+  opacity: 0.5;
+  padding: 15px;
+  line-height: 1.7rem;
+}
